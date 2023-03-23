@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>praveen</title>
+    <title>Registration Page</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1 class="h1">Hello world</h1>
-    <h2>i am praveen</h2>
+    <div class="container">
+        <h1 class="heading">Register Today</h1>
+        <p class="paragraph">Fill In The Data Below.</p>
+        <div>
+            <form>
+                <div>
+                    <input type="text" placeholder="Full Name"required  class="input-name">
+                    <input type="text" placeholder="E-mail address"required  class="input-name">
+                    <select type="text" placeholder=""required  class="options">
+                        <option>Position</option>
+                        <option>Junior web developer</option>
+                        <option>Senior web developer</option>
+                        <option>Project Manager</option>
+                    </select>
+                    <input type="text" placeholder="Password"required  class="input-name">
+                </div>
+                <div>
+                    <input type="radio" name="gender" class="radio-button">
+                    <label class="radio-text">Male</label>
+                    <input type="radio" name="gender" class="radio-button">
+                    <label class="radio-text">FeMale</label>
+                    <input type="radio" name="gender" class="radio-button">
+                    <label class="radio-text">Others</label>
+                </div>  
+                <div>
+                    <input type="checkbox" class="checkbox">
+                    <label class="checkbox-text">I confirm that all data are correct</label>
+                </div> 
+                <div>
+                    <button class="button">Register</button>
+                </div>   
+            </form>
+        </div>
+    </div>
 </body>
 </html>
